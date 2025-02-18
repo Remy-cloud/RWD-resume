@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Resume</title>
+</head>
+<body>
+<!--Navbar -->
+<nav>
+    <div class="left">
+        <a href="/">Intwali Remy</a>
+    </div>
+    <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener 
+        noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+    </a>
+
+    <a href="http://linkedin.com" target="_blank" rel="noopener 
+        noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+    </a>
+
+    <a href="mailto:r.intwali@alustudent.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+    </a>
+    </div>
+
+</nav>
+
+<main>
+    <!-- section 1: hero-->
+    <section class="hero-section">
+        <div class="text">
+            <h2>Hello I'm Remy </h2>
+            <p>I am a passionate Software Developer who loves building user-friendly applications.
+                 I enjoy solving problems and learning new technologies to improve my skills.
+                  With experience in Python, JavaScript, and web development, I create solutions 
+                  that make a difference. I write clean code and work well with teams to bring ideas to life.
+                   I am excited to grow and contribute in dynamic tech environments.
+                </p>
+
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="#Experience ">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Experience</span>
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="headshot">
+            <img src="image.Webp" alt="Intwali Remy photo">
+        </div>
+    </section>
+
+    <!-- section 2: skills-->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+            I am skilled in JavaScript, HTML, and CSS, with a strong understanding of front-end development.
+            I enjoy building responsive and interactive websites.
+            I enjoy collaborating with teams, sharing ideas, and 
+            learning from others to achieve the best results.
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="html-logo.Webp" alt="html-logo">
+                <span>HTML</span>
+            </div>
+
+            <div class="cell">
+                <img src="css-logo.Webp" alt="css-logo">
+                <span>CSS</span>
+            </div>
+
+            <div class="cell">
+                <img src="javascript-logo.Webp" alt="javascript-logo">
+                <span>JAVASCRIPT</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- section 3: Experience-->
+    <section id="Experience" class="experience-section">
+        <h2>Experience</h2>
+
+        <div class="group">
+            <div class="person-details">
+                <img src="image.Webp" alt="Remy">
+                <p>Intwali Remy</p>
+
+            </div>
+
+            <div class="text">
+                I obtained experience with hands-on experience in school and personal projects 
+                as a Junior Software Developer  demonstrating a solid foundation in programming and 
+                Continuously learning and exploring new technologies and frameworks
+                to stay up-to-date with industry trends.
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4: contact-->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+            <div class="text">
+                I am always open to connecting with like-minded professionals,
+                collaborating on exciting projects, and exploring new learning opportunities.please leave a message!! 
+                Looking forward to connecting and collaborating!
+            </div>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="Email">Email</label>
+                <input type="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send message</button>
+
+            </form>
+        </div>
+    </section>
+
+</main>
+<button id="backToTop" title="Go to top">↑ Top</button>
+<script src="script.js"></script>
+</body>
+</html> 
