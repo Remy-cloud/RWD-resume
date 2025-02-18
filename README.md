@@ -1,1 +1,1 @@
-This is a readme file for my resume website for Frontend Web Development assignment: Responsive Web Design - Resume Assignment
+This is a readme file for my resume website for Frontend Web Development assignment: Responsive Web Design  Resume Assignment
